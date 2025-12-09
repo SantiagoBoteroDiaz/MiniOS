@@ -1,0 +1,32 @@
+:root {
+    /* Fondo general limpio y moderno */
+    --color-fondo: #F2F4F8;
+
+    /* Color principal: azul tecnológico */
+    --color-primario: #005CFF;
+
+    /* Secundario: violeta suave estilo OS moderno */
+    --color-secundario: #8E59FF;
+
+    /* Acento llamativo para botones o notificaciones */
+    --color-acento: #00D2A0;
+
+    /* Tonos neutros para tarjetas, barras y paneles */
+    --color-panel: #FFFFFF;
+    --color-panel-oscuro: #E1E5EB;
+
+    /* Texto */
+    --color-texto: #1E1E1E;
+    --color-texto-suave: #5A5A5A;
+
+    /* Colores especiales (alertas y estados) */
+    --color-exito: #2ECC71;
+    --color-error: #FF4D4D;
+    --color-advertencia: #FFC048;
+
+    /* Sombras para dar efecto de ventana o tarjeta */
+    --sombra: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    /* Fuente recomendada */
+    --fuente: 'Poppins', sans-serif;
+}
