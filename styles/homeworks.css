@@ -47,7 +47,7 @@ header {
             display: flex;
             flex-direction: column;
             border-bottom: 2px solid white;
-            
+            padding: 1rem;
 
             
         }
@@ -64,6 +64,7 @@ header {
         }
         
         .crear-tarea {
+            padding:1rem;
             grid-column: span 2;
             border-right: 2px solid white;
             
@@ -71,8 +72,7 @@ header {
 
         .eliminar-tarea {
             grid-column: span 2;
-            display: flex;
-            flex-direction: column;
+            padding: 1rem;
         }
 
 footer {
