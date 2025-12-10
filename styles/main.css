@@ -34,7 +34,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(64, 64, 65, 0.771);
     display: none;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@ p {
 }
 
 .contenido {
-    background: white;
+    background: rgba(255, 255, 255, 0.916);
     padding: 15px;
     border-radius: 10px;
     width: 90%;
