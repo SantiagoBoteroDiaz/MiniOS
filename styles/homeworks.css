@@ -1,0 +1,83 @@
+:root {
+    --color1: black;
+    --color2: beige;
+    --color3: rgb(240, 181, 71);
+    --color4: white;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color1);
+    height: 10rem;
+    color: var(--color4);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid white;
+}
+
+.contenedor-aside-main {
+    display: flex;
+}
+
+    aside {
+        padding-left: 1rem;
+        background-color: var(--color1);
+        color: var(--color4);
+        width:18rem;
+        height: 100vh;
+        border-right: 2px solid white
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+        main section {
+            background-color: var(--color3);
+        }
+
+        
+
+        .Tareas-registradas {
+            grid-column: span 3;
+            display: flex;
+            flex-direction: column;
+            border-bottom: 2px solid white;
+            padding: 1rem;
+
+            
+        }
+    
+            #import {
+                color: red;
+            }
+
+        .crear-eliminar {
+            grid-column: span 3;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            
+        }
+        
+        .crear-tarea {
+            padding:1rem;
+            grid-column: span 2;
+            border-right: 2px solid white;
+            
+        }
+
+        .eliminar-tarea {
+            grid-column: span 2;
+            padding: 1rem;
+        }
+
+footer {
+    background-color: var(--color1);
+    color: var(--color4);
+    text-align: center;
+    border-top: 2px solid white;
+}
