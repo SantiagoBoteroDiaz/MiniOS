@@ -3,8 +3,11 @@
 }
 body {
     background-image: url(../img/maxresdefault.jpg);
+    background-size: cover;        
+    background-repeat: no-repeat;  
+    background-position: center;   
+    background-attachment: fixed; 
 }
-
 
 section {
     display: flex;
@@ -67,3 +70,24 @@ p {
     color: black;
     margin-bottom: 10px;
 }
+@media (max-width: 600px){
+    section {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+        margin-left: 30px;
+    }
+
+    .app {
+    
+    height: 125px;
+    width: 80px;
+    border-radius: 20px;
+    }
+    .app:hover {
+       background-color: gray; 
+    }
+
+}
+    
+

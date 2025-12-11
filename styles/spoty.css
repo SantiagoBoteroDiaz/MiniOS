@@ -33,3 +33,11 @@ article img {
     width:150px ;
     height:200px ;
 }
+@media (max-width: 600px) {
+    .musica {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .icons {
+        gap: 15px;
+    }
+}

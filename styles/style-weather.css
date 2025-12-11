@@ -14,15 +14,19 @@ body {
     overflow: hidden;
     color: #fff;
     position: relative;
+    background-size: cover;        
+    background-repeat: no-repeat;  
+    background-position: center;   
+    background-attachment: fixed; 
 }
 
 .clouds {
+    background: url("../img/imgWeat/FcsA.gif") center center / cover no-repeat;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("../img/imgWeat/FcsA.gif") center center / cover no-repeat;
     z-index: 1;
     opacity: 0.35;
 }
@@ -74,4 +78,19 @@ body {
     justify-content: space-between;
     margin: 8px 0;
     font-size: 0.95em;
+}
+@media (max-width: 600px) {
+    .weather-container {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 600px;
+    }
+    .clouds {
+        width: 100%;
+        height: 1300px;
+    }
+    body {
+        overflow: auto;
+    }
+   
 }

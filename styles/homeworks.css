@@ -81,3 +81,16 @@ footer {
     text-align: center;
     border-top: 2px solid white;
 }
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+        margin-left: -40px;
+    }
+    li {
+        margin-left: -20px;
+        width: 100px;
+    }
+    input {
+        width: 49px;
+    }
+}
